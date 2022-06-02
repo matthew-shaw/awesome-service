@@ -52,6 +52,8 @@ gunicorn==20.1.0
     # via -r requirements.in
 idna==3.3
     # via email-validator
+importlib-metadata==4.11.4
+    # via flask
 itsdangerous==2.1.2
     # via
     #   flask
@@ -79,7 +81,7 @@ pyparsing==3.0.9
     # via packaging
 python-dotenv==0.20.0
     # via -r requirements.in
-redis==4.3.1
+redis==4.3.2
     # via -r requirements.in
 rich==12.4.3
     # via flask-limiter
@@ -97,6 +99,8 @@ wtforms==3.0.1
     # via
     #   flask-wtf
     #   govuk-frontend-wtf
+zipp==3.8.0
+    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
