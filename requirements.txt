@@ -17,9 +17,7 @@ cssmin==0.2.0
 deepmerge==1.0.1
     # via govuk-frontend-wtf
 deprecated==1.2.13
-    # via
-    #   limits
-    #   redis
+    # via limits
 dnspython==2.2.1
     # via email-validator
 email-validator==1.2.1
@@ -52,6 +50,8 @@ gunicorn==20.1.0
     # via -r requirements.in
 idna==3.3
     # via email-validator
+importlib-metadata==6.0.0
+    # via flask
 itsdangerous==2.1.2
     # via
     #   flask
@@ -70,16 +70,14 @@ markupsafe==2.1.1
     #   jinja2
     #   wtforms
 packaging==21.3
-    # via
-    #   limits
-    #   redis
+    # via limits
 pygments==2.12.0
     # via rich
 pyparsing==3.0.9
     # via packaging
 python-dotenv==0.20.0
     # via -r requirements.in
-redis==4.3.1
+redis==4.4.1
     # via -r requirements.in
 rich==12.4.3
     # via flask-limiter
@@ -97,6 +95,8 @@ wtforms==3.0.1
     # via
     #   flask-wtf
     #   govuk-frontend-wtf
+zipp==3.11.0
+    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
