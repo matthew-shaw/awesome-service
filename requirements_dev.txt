@@ -10,7 +10,7 @@ attrs==21.4.0
     #   pytest
 bandit==1.7.4
     # via -r requirements_dev.in
-black==22.3.0
+black==23.1.0
     # via -r requirements_dev.in
 certifi==2022.5.18.1
     # via requests
@@ -50,8 +50,9 @@ mccabe==0.6.1
     # via flake8
 mypy-extensions==0.4.3
     # via black
-packaging==21.3
+packaging==23.0
     # via
+    #   black
     #   dparse
     #   pytest
     #   safety
@@ -77,8 +78,6 @@ pycodestyle==2.6.0
     # via flake8
 pyflakes==2.2.0
     # via flake8
-pyparsing==3.0.9
-    # via packaging
 pytest==7.1.2
     # via pytest-cov
 pytest-cov==3.0.0
@@ -110,6 +109,8 @@ tomli==2.0.1
     #   coverage
     #   pep517
     #   pytest
+typing-extensions==4.4.0
+    # via black
 urllib3==1.26.9
     # via requests
 wheel==0.37.1
